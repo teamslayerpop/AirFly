@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Companies"
+        android:textSize="14sp"
+        android:id="@+id/companie"/>
+    <TextView
+
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/companie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="235DA"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/num_vol"/>
+    <TextView
+        android:layout_toRightOf="@id/num_vol"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@id/companie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Destination"
+        android:textStyle="bold"
+        android:textSize="18sp"
+
+        android:id="@+id/destination"/>
+    <TextView
+
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/destination"
+        android:id="@+id/heure_arrive"
+
+        android:text="Arrivé pour 18:00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/destination"
+        android:layout_alignParentRight="true"
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:text="En retard"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/ic_launcher"/>
+</RelativeLayout>
